@@ -1,0 +1,57 @@
+body {
+  padding:50px 30px;
+  background:#DCC7AA;
+}
+
+/* Style the tabs */
+.tabs {
+  overflow: hidden;
+  margin:0 30px;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: fit-content;
+}
+/* Style the buttons inside the tab */
+.tabs input {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+/* Change background color of buttons on hover */
+.tabs input:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tabs input.active {
+  background-color: #ccc;
+}
+/* tab contents */
+
+#sign_up{
+  padding:0 30px;
+}
+#sign_in{
+  padding:0 30px;
+  display:none;
+}
+
+/* Full-width input fields */
+input[type=email], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=email]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
