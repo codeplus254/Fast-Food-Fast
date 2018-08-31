@@ -91,3 +91,17 @@ ol li {
 ol li select option{
   padding-left: 20px;
 }
+
+/*style the user_history.html page */
+#user_history{
+  padding: 10px 30px;
+}
+#checkoutTable{
+  padding: 0 30px;
+  text-align: left;
+}
+#checkoutTable td, th {
+  border: 1px solid #fc0303;
+  text-align: left;
+  padding: 8px;
+}
