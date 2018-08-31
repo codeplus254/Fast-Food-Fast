@@ -40,7 +40,10 @@ body {
   padding:0 30px;
   display:none;
 }
-
+#order_food{
+  padding: 0 30px;
+  display:none;
+}
 /* Full-width input fields */
 input[type=email], input[type=password] {
   width: 100%;
