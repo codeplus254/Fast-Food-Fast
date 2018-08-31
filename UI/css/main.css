@@ -3,6 +3,18 @@ body {
   background:#DCC7AA;
 }
 
+#logo{
+  color: #722f37;
+  text-decoration: overline;
+  font-size: 3em;
+  font-stretch: extra-expanded;
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 900;
+  text-shadow: #EDEDED 3px 2px 0;
+  
+  text-align: center;
+}
 /* Style the tabs */
 .tabs {
   overflow: hidden;
