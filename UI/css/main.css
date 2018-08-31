@@ -38,11 +38,15 @@ body {
 }
 #sign_in{
   padding:0 30px;
-  display:none;
+  /*display:none;*/
 }
 #order_food{
   padding: 0 30px;
-  display:none;
+  /*display:none;*/
+}
+#admin{
+  padding: 0 30px;
+  /*display:none;*/
 }
 /* Full-width input fields */
 input[type=email], input[type=password] {
@@ -57,4 +61,33 @@ input[type=email], input[type=password] {
 input[type=email]:focus, input[type=password]:focus {
   background-color: #ddd;
   outline: none;
+}
+/*styling the orderFood.html */
+/* stle images of possible foods to be ordered */
+#order_food input[type=image] {
+  width: 100px;
+  height:50px;
+  padding-left: 15px;
+}
+#order_food input[type=checkbox] {
+  width: 100px;
+  height:50px;
+  padding: 15px;
+}
+
+/* style list of order items*/
+ol {
+  
+  padding: 20px;
+}
+
+
+
+ol li {
+  
+  padding: 5px;
+  margin-left: 35px;
+}
+ol li select option{
+  padding-left: 20px;
 }
