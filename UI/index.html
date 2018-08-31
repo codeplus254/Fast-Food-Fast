@@ -1,3 +1,4 @@
+<!-- sign up page -->-->
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
@@ -11,12 +12,13 @@
 	<body >
                 <div class="tabs">
                     <input id="signUpBtn" onClick="signUpFunction()" type="button" value="Sign Up" />
-                    <input id="signInBtn" onClick="signInFunction()" type="button" value="Sign In" />
-                    <input id="orderFoodBtn" type="button" value="Order Food" />
+                    <input id="signInBtn" onClick="window.location.href='sign_in.html';signInFunction()" type="button" value="Sign In" />
+                    <input id="orderFoodBtn" onclick="window.location.href='orderFood.html'" type="button" value="Order Food" />
+                    <input id="adminBtn"  onclick="window.location.href='admin.html'" type="button" value="Admin" />
                     
                 </div>
                 <div id="sign_up" class="tabcontents">
-                    <form id="signUp_form" onsubmit= "signUpUser();return false;"  method="post" novalidate>
+                    <form id="signUp_form" onsubmit= ""  method="post" novalidate>
             
                         <h2>Sign Up</h2>
                         <p> Please fill in the form to create an account</p>
@@ -38,53 +40,9 @@
                         </div>
                     </form>
                 </div>
-                <div id="sign_in" class="tabcontents">
-                    <form id="signIn_form" onsubmit= "signInUser();return false; "  method="post" novalidate>
-            
-                        <h2>Sign In</h2>
-                        <label for="email"><b>Email</b></label>
-                        <input type="email" placeholder="Enter Email"  name="email" required>
-
-                        <label for="psw"><b>Password</b></label>
-                        <input type="password" placeholder="Enter Password" name="psw" required>
-
-                        
-                        
-                        <label>
-                            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
-                        </label>
-                        <div class="tabs">
-                                <input type="reset" value="Reset" />
-                                <input type="submit" value="Submit" />
-                        </div>
-                    </form>
-                </div> 
-                <div id="order_food" class="tabcontents">
-                    <form id="orderFood_form" onsubmit= "orderFood()" method="post" novalidate>
-            
-                        <h2>Order Food</h2>
-                        <input type="checkbox" name="Burger and Hamketchup" value="350"><input type="image" src="images/burger_and_hamketchup.jpeg" alt="Burger and Hamketchup" width="100px" height="100px" >Tasty Burger and Ham Ketchup<br>
-                        <input type="checkbox" name="Five Bake Donuts" value="500"><input type="image" src="images/five_bake_donuts.jpeg" alt="Five Bake Donuts" width="100px" height="100px" >Five Bake Donuts<br>
-                        <input type="checkbox" name="Fresh Salad" value="100"><input type="image" src="images/fresh_salad.jpeg" alt="Fresh Salad" width="100px" height="100px" >Fresh Salad<br>
-                        <input type="checkbox" name="Fried Meat" value="750"><input type="image" src="images/fried_meat.jpeg" alt="Fried Meat" width="100px" height="100px" >Fried Meat<br>
-                        <input type="checkbox" name="Fries and Burger" value="450"><input type="image" src="images/fries_and_burger.jpeg" alt="Fries and Burger" width="100px" height="100px" >Fries and Burger<br>
-                        <input type="checkbox" name="Hamburger" value="200"><input type="image" src="images/hamburger.jpeg" alt="Hamburger" width="100px" height="100px" >Hamburger<br>
-                        <input type="checkbox" name="Healthy Burger" value="150"><input type="image" src="images/healthy_burger.jpeg" alt="Healthy Burger" width="100px" height="100px" >Healthy Burger<br>
-                        <input type="checkbox" name="Meat Burger" value="200"><input type="image" src="images/meat_burger.jpg" alt="Meat Burger" width="100px" height="100px" >Meat Burger<br>
-                        <input type="checkbox" name="Pepperoni Pizza" value="800"><input type="image" src="images/pepperoni_pizza.jpeg" alt="Pepperoni Pizza" width="100px" height="100px" >Pepperoni Pizza<br>
-                        <input type="checkbox" name="Pizza with egg" value="750"><input type="image" src="images/pizza_with_egg.jpeg" alt="Pizza with egg" width="100px" height="100px" >Pizza with egg<br>
-                        <input type="checkbox" name="Popcorn" value="100"><input type="image" src="images/popcorn.jpeg" alt="Popcorn" width="100px" height="100px" >Popcorn<br>
-                        <input type="checkbox" name="Sliced Cheeseburger" value="250"><input type="image" src="images/sliced_cheeseburger.jpeg" alt="Sliced Cheeseburger" width="100px" height="100px" >Sliced Cheeseburger<br>
-
-                        
-                        
-                        
-                        <div class="tabs">
-                                <input type="reset" value="Reset" />
-                                <input type="submit" value="Check Out" />
-                        </div>
-                    </form>
-                </div>
+                
+                
+               
 
                 
             
